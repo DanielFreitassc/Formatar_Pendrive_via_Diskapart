@@ -17,6 +17,10 @@ list disk
 ```
 select disk 2
 ```
+# Limpe
+```
+clean
+```
 # Liste as partições do disco
 ```
 list partition
@@ -31,6 +35,7 @@ list partition
 ```
 select partition 1
 ```
+
 # Ecolha um dos formatos abaixo e Formate a partição 
 
 ### FAT32

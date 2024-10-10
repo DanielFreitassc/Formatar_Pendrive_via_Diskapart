@@ -1,9 +1,12 @@
 # Formatar_Pendrive_via_Diskapart
 
-# Abra o cmd e digite diskpart
-
-# Liste os discos 
+# Abra o cmd e digite 
+```yml
+diskpart
 ```
+# Liste os discos 
+
+```yml
 list disk
 ```
 ```
@@ -14,47 +17,47 @@ list disk
   Disco 2    Online         7632 MB      0 B
 ```
 # Selecione o disco que você deseja formatar
-```
+```yml
 select disk 2
 ```
 # Limpe
-```
+```yml
 clean
 ```
 # Liste as partições do disco
-```
+```yml
 list partition
 ```
-```
+```yml
   Partição No.   Tipo              Tamanho  Deslocamento
   -------------  ----------------  -------  ------------
   Partição 1    Primário          7631 MB  1024 KB
 ```
 
 # Selecione a partição desejada
-```
+```yml
 select partition 1
 ```
 
 # Ecolha um dos formatos abaixo e Formate a partição 
 
 ### FAT32
-```
+```yml
  format fs=FAT32 quick
 ```
 
 ### NTFS
-```
+```yml
 format fs=NTFS quick
 ```
 
 ### exFAT
-```
+```yml
 format fs=exFAT quick
 ```
 
 # Em seguida atribua
-```
+```yml
 assign
 ````
 

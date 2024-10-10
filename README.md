@@ -24,6 +24,11 @@ select disk 2
 ```yml
 clean
 ```
+# Crie partição
+```yml
+create partition primary
+```
+
 # Liste as partições do disco
 ```yml
 list partition

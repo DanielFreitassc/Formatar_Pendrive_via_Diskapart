@@ -63,7 +63,7 @@ format fs=exFAT quick
 
 # Em seguida atribua
 ```yml
-assign
+assign letter=X
 ````
 
 # Pronto digite exit para sair

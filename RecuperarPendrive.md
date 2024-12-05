@@ -1,4 +1,4 @@
-A---
+---
 
 # **Recuperação de Pendrive Corrompido no Linux**
 

@@ -37,9 +37,6 @@ Neste guia, mostramos como reparar um pendrive corrompido no Linux utilizando o 
 - **Diskpart** (Windows): Utilitário de linha de comando do Windows para gerenciamento de discos.
 - **lsblk, fdisk, mkfs** (Linux): Ferramentas padrão para gerenciamento e formatação de discos no Linux.
 
-## **Como Contribuir**
-
-
 ---
 
 ## **Conclusão**
